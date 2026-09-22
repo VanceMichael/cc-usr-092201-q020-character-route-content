@@ -1,0 +1,1285 @@
+{
+  "domain": "character-route-content",
+  "catalog_version": 1,
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "title": "甲骨文合集（摹本著录）",
+      "publisher": "中华书局",
+      "year": 1982,
+      "locator": "第三册·走字条",
+      "source_type": "著录"
+    },
+    {
+      "source_id": "SRC-002",
+      "title": "殷周金文集成（释文）",
+      "publisher": "中华书局",
+      "year": 1994,
+      "locator": "卷五·走字器铭",
+      "source_type": "著录"
+    },
+    {
+      "source_id": "SRC-003",
+      "title": "说文解字",
+      "publisher": "中华书局",
+      "year": 1963,
+      "locator": "走部：走，趋也",
+      "source_type": "字书"
+    },
+    {
+      "source_id": "SRC-004",
+      "title": "通用规范汉字字典",
+      "publisher": "商务印书馆",
+      "year": 2013,
+      "locator": "走字条",
+      "source_type": "字书"
+    },
+    {
+      "source_id": "SRC-005",
+      "title": "馆藏文物图像档案",
+      "publisher": "本馆影像部",
+      "year": 2024,
+      "locator": "影像库·青铜器类",
+      "source_type": "图像档案"
+    },
+    {
+      "source_id": "SRC-006",
+      "title": "儿童汉字认知发展研究综述",
+      "publisher": "学前教育研究",
+      "year": 2019,
+      "locator": "第4期·表意文字教学",
+      "source_type": "研究文献"
+    }
+  ],
+  "items": [
+    {
+      "item_id": "走-glyph-oracle",
+      "kind": "glyph",
+      "character": "走",
+      "title": "走·甲骨文",
+      "group": "走-字形",
+      "note": "",
+      "current_version_id": "走-glyph-oracle-v1"
+    },
+    {
+      "item_id": "走-glyph-bronze",
+      "kind": "glyph",
+      "character": "走",
+      "title": "走·金文",
+      "group": "走-字形",
+      "note": "",
+      "current_version_id": "走-glyph-bronze-v1"
+    },
+    {
+      "item_id": "走-glyph-seal",
+      "kind": "glyph",
+      "character": "走",
+      "title": "走·小篆",
+      "group": "走-字形",
+      "note": "",
+      "current_version_id": "走-glyph-seal-v2"
+    },
+    {
+      "item_id": "走-glyph-regular",
+      "kind": "glyph",
+      "character": "走",
+      "title": "走·楷书",
+      "group": "走-字形",
+      "note": "",
+      "current_version_id": "走-glyph-regular-v1"
+    },
+    {
+      "item_id": "走-meaning",
+      "kind": "meaning",
+      "character": "走",
+      "title": "走·古义",
+      "group": "走-释义",
+      "note": "",
+      "current_version_id": "走-meaning-v1"
+    },
+    {
+      "item_id": "走-expr-plain",
+      "kind": "expression",
+      "character": "走",
+      "title": "走·直白版",
+      "group": "走-释义表达",
+      "note": "",
+      "current_version_id": "走-expr-plain-v1"
+    },
+    {
+      "item_id": "走-expr-story",
+      "kind": "expression",
+      "character": "走",
+      "title": "走·故事版",
+      "group": "走-释义表达",
+      "note": "",
+      "current_version_id": "走-expr-story-v1"
+    },
+    {
+      "item_id": "走-img-ding",
+      "kind": "image",
+      "character": "走",
+      "title": "青铜鼎铭文照片",
+      "group": "走-文物图像",
+      "note": "",
+      "current_version_id": "走-img-ding-v1"
+    },
+    {
+      "item_id": "走-img-rubbing",
+      "kind": "image",
+      "character": "走",
+      "title": "拓印活动用图",
+      "group": "走-拓印素材",
+      "note": "",
+      "current_version_id": "走-img-rubbing-v2"
+    },
+    {
+      "item_id": "走-expr-access-10",
+      "kind": "expression",
+      "character": "走",
+      "title": "走·触觉讲解版",
+      "group": "走-释义表达",
+      "note": "",
+      "current_version_id": "走-expr-access-10-v1"
+    }
+  ],
+  "versions": [
+    {
+      "version_id": "走-glyph-oracle-v1",
+      "item_id": "走-glyph-oracle",
+      "kind": "glyph",
+      "version_no": 1,
+      "payload": {
+        "script_form": "甲骨文",
+        "period": "商代晚期",
+        "glyph_ref": "〔甲骨文：像人摆臂奔跑之形〕"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-001",
+          "note": "甲骨文字形出处"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "1f2a04da77e35a8f"
+    },
+    {
+      "version_id": "走-glyph-bronze-v1",
+      "item_id": "走-glyph-bronze",
+      "kind": "glyph",
+      "version_no": 1,
+      "payload": {
+        "script_form": "金文",
+        "period": "西周",
+        "glyph_ref": "〔金文：人形下增“止”（脚），强调奔跑〕"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-002",
+          "note": "金文字形出处"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "59de7bc3c2675c77"
+    },
+    {
+      "version_id": "走-glyph-seal-v1",
+      "item_id": "走-glyph-seal",
+      "kind": "glyph",
+      "version_no": 1,
+      "payload": {
+        "script_form": "小篆",
+        "period": "秦",
+        "glyph_ref": "〔小篆：上“夭”下“止”，线条匀圆〕"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-003",
+          "note": "小篆字形出处"
+        }
+      ],
+      "author": "内容组",
+      "state": "已归档",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "e06b3014b115927a"
+    },
+    {
+      "version_id": "走-glyph-regular-v1",
+      "item_id": "走-glyph-regular",
+      "kind": "glyph",
+      "version_no": 1,
+      "payload": {
+        "script_form": "楷书",
+        "period": "汉魏以降",
+        "glyph_ref": "走"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-004",
+          "note": "楷书字形出处"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "f204002a84e43fe6"
+    },
+    {
+      "version_id": "走-meaning-v1",
+      "item_id": "走-meaning",
+      "kind": "meaning",
+      "version_no": 1,
+      "payload": {
+        "text": "古汉语中“走”的本义是跑、奔跑，如“走马观花”；今义“步行”是后起的。"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-003",
+          "note": "《说文》：走，趋也"
+        },
+        {
+          "source_id": "SRC-004",
+          "note": "今义对照"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "6c43272343904689"
+    },
+    {
+      "version_id": "走-expr-plain-v1",
+      "item_id": "走-expr-plain",
+      "kind": "expression",
+      "version_no": 1,
+      "payload": {
+        "text": "三千年前，“走”是奔跑的意思。古人看到快跑的人，就画下了这个字。",
+        "age_band": "7-9"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-003",
+          "note": "释义依据"
+        },
+        {
+          "source_id": "SRC-006",
+          "note": "适龄改写依据"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "493382002d08a752"
+    },
+    {
+      "version_id": "走-expr-story-v1",
+      "item_id": "走-expr-story",
+      "kind": "expression",
+      "version_no": 1,
+      "payload": {
+        "text": "看这个字，像不像一个人甩开手臂大步跑？古时候“走”就是“快跑”哦！",
+        "age_band": "4-6"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-001",
+          "note": "字形描述依据"
+        },
+        {
+          "source_id": "SRC-006",
+          "note": "适龄改写依据"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "e1c4edac6fc53005"
+    },
+    {
+      "version_id": "走-img-ding-v1",
+      "item_id": "走-img-ding",
+      "kind": "image",
+      "version_no": 1,
+      "payload": {
+        "asset_ref": "影像库/DING-ZOU-01.tif",
+        "caption": "西周青铜鼎铭文中的“走”字（金文）"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-005",
+          "note": "馆藏影像"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": null,
+      "fingerprint": "5f302cb3f67432fe"
+    },
+    {
+      "version_id": "走-img-rubbing-v1",
+      "item_id": "走-img-rubbing",
+      "kind": "image",
+      "version_no": 1,
+      "payload": {
+        "asset_ref": "影像库/RUB-ZOU-02.png",
+        "caption": "拓印体验用“走”字金文底图"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-005",
+          "note": "馆藏影像"
+        }
+      ],
+      "author": "内容组",
+      "state": "需更换",
+      "review": null,
+      "fingerprint": "9ef3044a43f4eda1"
+    },
+    {
+      "version_id": "走-glyph-seal-v2",
+      "item_id": "走-glyph-seal",
+      "kind": "glyph",
+      "version_no": 2,
+      "payload": {
+        "script_form": "小篆",
+        "period": "秦（公元前221年统一后定型）",
+        "glyph_ref": "〔小篆：上“夭”下“止”，线条匀圆〕"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-003",
+          "note": "《说文》成书年代订正"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "761fd627a1ea0c33"
+    },
+    {
+      "version_id": "走-img-rubbing-v2",
+      "item_id": "走-img-rubbing",
+      "kind": "image",
+      "version_no": 2,
+      "payload": {
+        "asset_ref": "影像库/JIAN-ZOU-03.png",
+        "caption": "秦简“走”字特写，替代撤权底图"
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-005",
+          "note": "馆藏影像"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": null,
+      "fingerprint": "9f4680c27aff81e6"
+    },
+    {
+      "version_id": "走-expr-access-10-v1",
+      "item_id": "走-expr-access-10",
+      "kind": "expression",
+      "version_no": 1,
+      "payload": {
+        "title": "走·触觉讲解版",
+        "text": "请伸出手臂：上面像甩开的双臂，下面是一只脚——整个人在奔跑。可配合让孩子摸一摸拓片上奔跑的人形。",
+        "age_band": "4-6",
+        "accessibility": true
+      },
+      "source_refs": [
+        {
+          "source_id": "SRC-006",
+          "note": "触觉通道表达依据"
+        }
+      ],
+      "author": "内容组",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": ""
+      },
+      "fingerprint": "8745ec9d04d47dac"
+    }
+  ],
+  "licenses": [
+    {
+      "license_id": "LIC-001",
+      "image_version_id": "走-img-ding-v1",
+      "licensor": "本馆影像部",
+      "scope": [
+        "展陈印刷",
+        "出版物",
+        "互动活动",
+        "数字展示"
+      ],
+      "valid_from": "2026-01-01",
+      "valid_until": "2027-12-31",
+      "document_ref": "授权协议字第2026-017号",
+      "status": "有效",
+      "withdrawn": null
+    },
+    {
+      "license_id": "LIC-002",
+      "image_version_id": "走-img-rubbing-v1",
+      "licensor": "外聘书法工作室",
+      "scope": [
+        "互动活动"
+      ],
+      "valid_from": "2026-03-01",
+      "valid_until": "2026-12-31",
+      "document_ref": "授权协议字第2026-042号",
+      "status": "已撤权",
+      "withdrawn": {
+        "at": "2026-09-29",
+        "actor": "版权联络人",
+        "reason": "授权方提前终止协议，底图撤权"
+      }
+    },
+    {
+      "license_id": "LIC-003",
+      "image_version_id": "走-img-rubbing-v2",
+      "licensor": "本馆影像部",
+      "scope": [
+        "互动活动",
+        "展陈印刷",
+        "数字展示"
+      ],
+      "valid_from": "2026-09-29",
+      "valid_until": "2028-12-31",
+      "document_ref": "授权协议字第2026-077号",
+      "status": "有效",
+      "withdrawn": null
+    }
+  ],
+  "points": [
+    {
+      "point_id": "P1",
+      "name": "启程·奔跑的起点",
+      "order": 1,
+      "note": "",
+      "active": true
+    },
+    {
+      "point_id": "P2",
+      "name": "象形步道",
+      "order": 2,
+      "note": "",
+      "active": false
+    },
+    {
+      "point_id": "P3",
+      "name": "城终留名",
+      "order": 3,
+      "note": "",
+      "active": true
+    },
+    {
+      "point_id": "P4",
+      "name": "终点互动区",
+      "order": 4,
+      "note": "",
+      "active": true
+    }
+  ],
+  "carriers": [
+    {
+      "carrier_id": "C-SIGN-1",
+      "point_id": "P1",
+      "carrier_type": "展签",
+      "title": "起点主展签·走字演变",
+      "audience_note": "亲子家庭"
+    },
+    {
+      "carrier_id": "C-BOARD-1",
+      "point_id": "P2",
+      "carrier_type": "路牌",
+      "title": "步道指示路牌",
+      "audience_note": "亲子家庭"
+    },
+    {
+      "carrier_id": "C-BOOK-1",
+      "point_id": "P3",
+      "carrier_type": "绘本",
+      "title": "《跟着汉字去跑步》打卡绘本",
+      "audience_note": "4-9岁"
+    },
+    {
+      "carrier_id": "C-SCRIPT-1",
+      "point_id": "P1",
+      "carrier_type": "讲解稿",
+      "title": "讲解员手持讲稿",
+      "audience_note": "讲解员"
+    },
+    {
+      "carrier_id": "C-ACT-1",
+      "point_id": "P4",
+      "carrier_type": "互动活动",
+      "title": "终点拓印体验",
+      "audience_note": "亲子家庭"
+    }
+  ],
+  "carrier_versions": [
+    {
+      "carrier_version_id": "C-SIGN-1-cv1",
+      "carrier_id": "C-SIGN-1",
+      "version_no": 1,
+      "bindings": [
+        {
+          "item_id": "走-glyph-bronze",
+          "version_id": "走-glyph-bronze-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-oracle",
+          "version_id": "走-glyph-oracle-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-regular",
+          "version_id": "走-glyph-regular-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-seal",
+          "version_id": "走-glyph-seal-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-img-ding",
+          "version_id": "走-img-ding-v1",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-plain",
+          "version_id": "走-expr-plain-v1",
+          "role": "适龄表达"
+        },
+        {
+          "item_id": "走-meaning",
+          "version_id": "走-meaning-v1",
+          "role": "释义"
+        }
+      ],
+      "author": "内容组",
+      "note": "起点主展签首版",
+      "state": "已归档",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "起点主展签首版"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-22",
+        "images": [
+          {
+            "version_id": "走-img-ding-v1",
+            "license_id": "LIC-001"
+          }
+        ]
+      },
+      "fingerprint": "62203ab10007261d",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-SIGN-1-cv1\", \"fp\": \"62203ab10007261d\"}",
+        "issued_at": "2026-09-22"
+      },
+      "recall": {
+        "reason": "雨水损坏现行展签，误用旧版替补，已撤换",
+        "at": "2026-09-29",
+        "event_type": "现场替换"
+      },
+      "superseded": true,
+      "published_at": "2026-09-22"
+    },
+    {
+      "carrier_version_id": "C-BOARD-1-cv1",
+      "carrier_id": "C-BOARD-1",
+      "version_no": 1,
+      "bindings": [
+        {
+          "item_id": "走-glyph-regular",
+          "version_id": "走-glyph-regular-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-expr-story",
+          "version_id": "走-expr-story-v1",
+          "role": "适龄表达"
+        }
+      ],
+      "author": "内容组",
+      "note": "路牌首版",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "路牌首版"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-22",
+        "images": []
+      },
+      "fingerprint": "b4050a408f7b3b71",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-BOARD-1-cv1\", \"fp\": \"b4050a408f7b3b71\"}",
+        "issued_at": "2026-09-22"
+      },
+      "recall": {
+        "reason": "步道施工，P2 撤点",
+        "at": "2026-09-29",
+        "event_type": "路线调整"
+      },
+      "superseded": false,
+      "published_at": "2026-09-22"
+    },
+    {
+      "carrier_version_id": "C-BOOK-1-cv1",
+      "carrier_id": "C-BOOK-1",
+      "version_no": 1,
+      "bindings": [
+        {
+          "item_id": "走-glyph-bronze",
+          "version_id": "走-glyph-bronze-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-oracle",
+          "version_id": "走-glyph-oracle-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-regular",
+          "version_id": "走-glyph-regular-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-seal",
+          "version_id": "走-glyph-seal-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-img-ding",
+          "version_id": "走-img-ding-v1",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-story",
+          "version_id": "走-expr-story-v1",
+          "role": "适龄表达"
+        }
+      ],
+      "author": "内容组",
+      "note": "绘本首版",
+      "state": "已归档",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "绘本首版"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-22",
+        "images": [
+          {
+            "version_id": "走-img-ding-v1",
+            "license_id": "LIC-001"
+          }
+        ]
+      },
+      "fingerprint": "b3724be3750635f4",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-BOOK-1-cv1\", \"fp\": \"b3724be3750635f4\"}",
+        "issued_at": "2026-09-22"
+      },
+      "recall": {
+        "reason": "更正小篆年代",
+        "at": "2026-09-29",
+        "event_type": "更正"
+      },
+      "superseded": true,
+      "published_at": "2026-09-22"
+    },
+    {
+      "carrier_version_id": "C-SCRIPT-1-cv1",
+      "carrier_id": "C-SCRIPT-1",
+      "version_no": 1,
+      "bindings": [
+        {
+          "item_id": "走-expr-plain",
+          "version_id": "走-expr-plain-v1",
+          "role": "适龄表达"
+        },
+        {
+          "item_id": "走-meaning",
+          "version_id": "走-meaning-v1",
+          "role": "释义"
+        }
+      ],
+      "author": "内容组",
+      "note": "讲解稿首版",
+      "state": "已归档",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "讲解稿首版"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-22",
+        "images": []
+      },
+      "fingerprint": "57a24610a2abd0c9",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-SCRIPT-1-cv1\", \"fp\": \"57a24610a2abd0c9\"}",
+        "issued_at": "2026-09-22"
+      },
+      "recall": null,
+      "superseded": true,
+      "published_at": "2026-09-22"
+    },
+    {
+      "carrier_version_id": "C-ACT-1-cv1",
+      "carrier_id": "C-ACT-1",
+      "version_no": 1,
+      "bindings": [
+        {
+          "item_id": "走-img-rubbing",
+          "version_id": "走-img-rubbing-v1",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-story",
+          "version_id": "走-expr-story-v1",
+          "role": "适龄表达"
+        }
+      ],
+      "author": "内容组",
+      "note": "拓印活动首版",
+      "state": "已归档",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "拓印活动首版"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-22",
+        "images": [
+          {
+            "version_id": "走-img-rubbing-v1",
+            "license_id": "LIC-002"
+          }
+        ]
+      },
+      "fingerprint": "6e3c3738055e242b",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-ACT-1-cv1\", \"fp\": \"6e3c3738055e242b\"}",
+        "issued_at": "2026-09-22"
+      },
+      "recall": {
+        "reason": "撤权图像替换为秦简照片",
+        "at": "2026-09-29",
+        "event_type": "撤权"
+      },
+      "superseded": true,
+      "published_at": "2026-09-22"
+    },
+    {
+      "carrier_version_id": "C-SIGN-1-cv2",
+      "carrier_id": "C-SIGN-1",
+      "version_no": 2,
+      "bindings": [
+        {
+          "item_id": "走-glyph-bronze",
+          "version_id": "走-glyph-bronze-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-oracle",
+          "version_id": "走-glyph-oracle-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-regular",
+          "version_id": "走-glyph-regular-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-seal",
+          "version_id": "走-glyph-seal-v2",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-img-ding",
+          "version_id": "走-img-ding-v1",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-plain",
+          "version_id": "走-expr-plain-v1",
+          "role": "适龄表达"
+        },
+        {
+          "item_id": "走-meaning",
+          "version_id": "走-meaning-v1",
+          "role": "释义"
+        }
+      ],
+      "author": "内容组",
+      "note": "更正小篆年代",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "更正小篆年代"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-29",
+        "images": [
+          {
+            "version_id": "走-img-ding-v1",
+            "license_id": "LIC-001"
+          }
+        ]
+      },
+      "fingerprint": "984ab177a4b3eceb",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-SIGN-1-cv2\", \"fp\": \"984ab177a4b3eceb\"}",
+        "issued_at": "2026-09-29"
+      },
+      "recall": null,
+      "superseded": false,
+      "published_at": "2026-09-29"
+    },
+    {
+      "carrier_version_id": "C-BOOK-1-cv2",
+      "carrier_id": "C-BOOK-1",
+      "version_no": 2,
+      "bindings": [
+        {
+          "item_id": "走-glyph-bronze",
+          "version_id": "走-glyph-bronze-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-oracle",
+          "version_id": "走-glyph-oracle-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-regular",
+          "version_id": "走-glyph-regular-v1",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-glyph-seal",
+          "version_id": "走-glyph-seal-v2",
+          "role": "字形"
+        },
+        {
+          "item_id": "走-img-ding",
+          "version_id": "走-img-ding-v1",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-story",
+          "version_id": "走-expr-story-v1",
+          "role": "适龄表达"
+        }
+      ],
+      "author": "内容组",
+      "note": "更正小篆年代",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "更正小篆年代"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-29",
+        "images": [
+          {
+            "version_id": "走-img-ding-v1",
+            "license_id": "LIC-001"
+          }
+        ]
+      },
+      "fingerprint": "7b3d7a16cf92de82",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-BOOK-1-cv2\", \"fp\": \"7b3d7a16cf92de82\"}",
+        "issued_at": "2026-09-29"
+      },
+      "recall": null,
+      "superseded": false,
+      "published_at": "2026-09-29"
+    },
+    {
+      "carrier_version_id": "C-ACT-1-cv2",
+      "carrier_id": "C-ACT-1",
+      "version_no": 2,
+      "bindings": [
+        {
+          "item_id": "走-img-rubbing",
+          "version_id": "走-img-rubbing-v2",
+          "role": "文物图像"
+        },
+        {
+          "item_id": "走-expr-story",
+          "version_id": "走-expr-story-v1",
+          "role": "适龄表达"
+        }
+      ],
+      "author": "内容组",
+      "note": "撤权图像替换为秦简照片",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "撤权图像替换为秦简照片"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-29",
+        "images": [
+          {
+            "version_id": "走-img-rubbing-v2",
+            "license_id": "LIC-003"
+          }
+        ]
+      },
+      "fingerprint": "aecf707ad2afbd09",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-ACT-1-cv2\", \"fp\": \"aecf707ad2afbd09\"}",
+        "issued_at": "2026-09-29"
+      },
+      "recall": null,
+      "superseded": false,
+      "published_at": "2026-09-29"
+    },
+    {
+      "carrier_version_id": "C-SCRIPT-1-cv2",
+      "carrier_id": "C-SCRIPT-1",
+      "version_no": 2,
+      "bindings": [
+        {
+          "item_id": "走-expr-access-10",
+          "version_id": "走-expr-access-10-v1",
+          "role": "无障碍"
+        },
+        {
+          "item_id": "走-expr-plain",
+          "version_id": "走-expr-plain-v1",
+          "role": "适龄表达"
+        },
+        {
+          "item_id": "走-meaning",
+          "version_id": "走-meaning-v1",
+          "role": "释义"
+        }
+      ],
+      "author": "内容组",
+      "note": "无障碍增补",
+      "state": "已发布",
+      "review": {
+        "reviewer": "外聘文字学专家",
+        "note": "无障碍增补"
+      },
+      "license_check": {
+        "checker": "版权联络人",
+        "checked_at": "2026-09-29",
+        "images": []
+      },
+      "fingerprint": "eff93aa21cd3709c",
+      "qr": {
+        "payload": "{\"carrier_version_id\": \"C-SCRIPT-1-cv2\", \"fp\": \"eff93aa21cd3709c\"}",
+        "issued_at": "2026-09-29"
+      },
+      "recall": null,
+      "superseded": false,
+      "published_at": "2026-09-29"
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "B-SIGN-1",
+      "carrier_version_id": "C-SIGN-1-cv1",
+      "label": "起点展签·首印",
+      "printed_at": "2026-09-22",
+      "quantity": 40,
+      "distributed": 40,
+      "recalled": 0,
+      "status": "已发完"
+    },
+    {
+      "batch_id": "B-BOARD-1",
+      "carrier_version_id": "C-BOARD-1-cv1",
+      "label": "路牌·首印",
+      "printed_at": "2026-09-22",
+      "quantity": 60,
+      "distributed": 60,
+      "recalled": 0,
+      "status": "已发完"
+    },
+    {
+      "batch_id": "B-BOOK-1",
+      "carrier_version_id": "C-BOOK-1-cv1",
+      "label": "绘本·首印",
+      "printed_at": "2026-09-22",
+      "quantity": 800,
+      "distributed": 500,
+      "recalled": 300,
+      "status": "已召回",
+      "recall_reason": "更正小篆年代"
+    },
+    {
+      "batch_id": "B-ACT-1",
+      "carrier_version_id": "C-ACT-1-cv1",
+      "label": "拓印材料包·首印",
+      "printed_at": "2026-09-22",
+      "quantity": 300,
+      "distributed": 200,
+      "recalled": 100,
+      "status": "已召回",
+      "recall_reason": "撤权图像替换为秦简照片"
+    }
+  ],
+  "feedback": [
+    {
+      "feedback_id": "F01",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "理解",
+      "understood_concepts": [
+        "奔跑",
+        "象形"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F02",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "理解",
+      "understood_concepts": [
+        "奔跑"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F03",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "部分理解",
+      "understood_concepts": [
+        "奔跑"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F04",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "未理解",
+      "understood_concepts": [],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F05",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "理解",
+      "understood_concepts": [
+        "奔跑",
+        "字形演变"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F06",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-story-v1",
+      "age_band": "4-6",
+      "understanding": "部分理解",
+      "understood_concepts": [],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F07",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-plain-v1",
+      "age_band": "7-9",
+      "understanding": "理解",
+      "understood_concepts": [
+        "古今异义",
+        "奔跑"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F08",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-plain-v1",
+      "age_band": "7-9",
+      "understanding": "部分理解",
+      "understood_concepts": [
+        "奔跑"
+      ],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F09",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-plain-v1",
+      "age_band": "7-9",
+      "understanding": "未理解",
+      "understood_concepts": [],
+      "comment": ""
+    },
+    {
+      "feedback_id": "F10",
+      "activity_carrier_version_id": "C-ACT-1-cv2",
+      "expression_version_id": "走-expr-plain-v1",
+      "age_band": "7-9",
+      "understanding": "部分理解",
+      "understood_concepts": [
+        "奔跑"
+      ],
+      "comment": ""
+    }
+  ],
+  "events": [
+    {
+      "event_id": "EV001",
+      "type": "更正",
+      "actor": "内容组",
+      "reason": "小篆年代标注更正",
+      "at": "2026-09-29",
+      "item_id": "走-glyph-seal",
+      "old_version_id": "走-glyph-seal-v1",
+      "new_version_id": "走-glyph-seal-v2",
+      "affected_carrier_version_ids": [
+        "C-SIGN-1-cv1",
+        "C-BOOK-1-cv1"
+      ]
+    },
+    {
+      "event_id": "EV002",
+      "type": "更正",
+      "actor": "内容组",
+      "reason": "更正小篆年代",
+      "at": "2026-09-29",
+      "content_version_id": null,
+      "carrier_version_ids": [
+        "C-SIGN-1-cv1"
+      ],
+      "batch_ids": []
+    },
+    {
+      "event_id": "EV003",
+      "type": "更正",
+      "actor": "内容组",
+      "reason": "更正小篆年代",
+      "at": "2026-09-29",
+      "content_version_id": null,
+      "carrier_version_ids": [
+        "C-BOOK-1-cv1"
+      ],
+      "batch_ids": [
+        "B-BOOK-1"
+      ]
+    },
+    {
+      "event_id": "EV004",
+      "type": "撤权",
+      "actor": "版权联络人",
+      "reason": "授权方提前终止协议，底图撤权",
+      "at": "2026-09-29",
+      "content_version_id": "走-img-rubbing-v1",
+      "carrier_version_ids": [
+        "C-ACT-1-cv1"
+      ],
+      "batch_ids": [
+        "B-ACT-1"
+      ]
+    },
+    {
+      "event_id": "EV005",
+      "type": "撤权",
+      "actor": "内容组",
+      "reason": "撤权图像替换为秦简照片",
+      "at": "2026-09-29",
+      "content_version_id": null,
+      "carrier_version_ids": [
+        "C-ACT-1-cv1"
+      ],
+      "batch_ids": [
+        "B-ACT-1"
+      ]
+    },
+    {
+      "event_id": "EV006",
+      "type": "路线调整",
+      "actor": "赛事运营",
+      "reason": "步道施工，P2 撤点",
+      "at": "2026-09-29",
+      "content_version_id": null,
+      "carrier_version_ids": [
+        "C-BOARD-1-cv1"
+      ],
+      "batch_ids": []
+    },
+    {
+      "event_id": "EV007",
+      "type": "无障碍增补",
+      "actor": "内容组",
+      "reason": "增补无障碍表达",
+      "at": "2026-09-29",
+      "content_version_id": "走-expr-access-10-v1",
+      "carrier_version_ids": [
+        "C-SCRIPT-1-cv2"
+      ]
+    },
+    {
+      "event_id": "EV008",
+      "type": "现场替换",
+      "actor": "现场组长",
+      "reason": "雨水损坏现行展签，误用旧版替补，已撤换",
+      "at": "2026-09-29",
+      "carrier_version_ids": [
+        "C-SIGN-1-cv1"
+      ],
+      "batch_ids": [
+        "B-SIGN-1"
+      ]
+    }
+  ]
+}

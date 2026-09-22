@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "赛道汉字内容编排资料",
+  "type": "object",
+  "required": ["domain", "catalog_version", "sources", "items", "versions", "licenses",
+               "points", "carriers", "carrier_versions", "batches", "feedback", "events"],
+  "properties": {
+    "domain": {"const": "character-route-content"},
+    "catalog_version": {"type": "integer", "minimum": 1},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "title", "publisher", "year", "locator", "source_type"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "title": {"type": "string"},
+          "publisher": {"type": "string"},
+          "year": {"type": "integer"},
+          "locator": {"type": "string"},
+          "source_type": {"type": "string"}
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item_id", "kind", "character", "title", "group", "current_version_id"],
+        "properties": {
+          "item_id": {"type": "string"},
+          "kind": {"enum": ["glyph", "meaning", "expression", "image"]},
+          "character": {"type": "string"},
+          "title": {"type": "string"},
+          "group": {"type": "string"},
+          "note": {"type": "string"},
+          "current_version_id": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version_id", "item_id", "kind", "version_no", "payload",
+                     "source_refs", "state", "fingerprint"],
+        "properties": {
+          "version_id": {"type": "string"},
+          "item_id": {"type": "string"},
+          "kind": {"enum": ["glyph", "meaning", "expression", "image"]},
+          "version_no": {"type": "integer", "minimum": 1},
+          "payload": {"type": "object"},
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["source_id"],
+              "properties": {
+                "source_id": {"type": "string"},
+                "locator": {"type": "string"},
+                "note": {"type": "string"}
+              }
+            }
+          },
+          "author": {"type": "string"},
+          "state": {"enum": ["待编写", "专家审校", "待授权", "已发布", "需更换", "已归档"]},
+          "review": {"type": ["object", "null"]},
+          "fingerprint": {"type": "string"}
+        }
+      }
+    },
+    "licenses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["license_id", "image_version_id", "licensor", "scope",
+                     "valid_from", "valid_until", "document_ref", "status"],
+        "properties": {
+          "license_id": {"type": "string"},
+          "image_version_id": {"type": "string"},
+          "licensor": {"type": "string"},
+          "scope": {"type": "array", "items": {"enum": ["展陈印刷", "出版物", "互动活动", "数字展示"]}},
+          "valid_from": {"type": "string"},
+          "valid_until": {"type": "string"},
+          "document_ref": {"type": "string"},
+          "status": {"enum": ["有效", "已撤权"]},
+          "withdrawn": {"type": ["object", "null"]}
+        }
+      }
+    },
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["point_id", "name", "order", "active"],
+        "properties": {
+          "point_id": {"type": "string"},
+          "name": {"type": "string"},
+          "order": {"type": "integer"},
+          "note": {"type": "string"},
+          "active": {"type": "boolean"}
+        }
+      }
+    },
+    "carriers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["carrier_id", "point_id", "carrier_type", "title"],
+        "properties": {
+          "carrier_id": {"type": "string"},
+          "point_id": {"type": "string"},
+          "carrier_type": {"enum": ["展签", "路牌", "绘本", "讲解稿", "互动活动"]},
+          "title": {"type": "string"},
+          "audience_note": {"type": "string"}
+        }
+      }
+    },
+    "carrier_versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["carrier_version_id", "carrier_id", "version_no", "bindings",
+                     "state", "fingerprint"],
+        "properties": {
+          "carrier_version_id": {"type": "string"},
+          "carrier_id": {"type": "string"},
+          "version_no": {"type": "integer", "minimum": 1},
+          "bindings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["item_id", "version_id", "role"],
+              "properties": {
+                "item_id": {"type": "string"},
+                "version_id": {"type": "string"},
+                "role": {"type": "string"}
+              }
+            }
+          },
+          "state": {"enum": ["待编写", "专家审校", "待授权", "已发布", "需更换", "已归档"]},
+          "review": {"type": ["object", "null"]},
+          "license_check": {"type": ["object", "null"]},
+          "fingerprint": {"type": "string"},
+          "qr": {"type": ["object", "null"]},
+          "recall": {"type": ["object", "null"]},
+          "superseded": {"type": "boolean"},
+          "published_at": {"type": ["string", "null"]},
+          "note": {"type": "string"}
+        }
+      }
+    },
+    "batches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["batch_id", "carrier_version_id", "quantity", "distributed",
+                     "recalled", "status"],
+        "properties": {
+          "batch_id": {"type": "string"},
+          "carrier_version_id": {"type": "string"},
+          "label": {"type": "string"},
+          "printed_at": {"type": "string"},
+          "quantity": {"type": "integer", "minimum": 1},
+          "distributed": {"type": "integer", "minimum": 0},
+          "recalled": {"type": "integer", "minimum": 0},
+          "status": {"enum": ["待发放", "发放中", "已发完", "已停发", "已召回"]},
+          "recall_reason": {"type": "string"}
+        }
+      }
+    },
+    "feedback": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["feedback_id", "activity_carrier_version_id", "age_band", "understanding"],
+        "properties": {
+          "feedback_id": {"type": "string"},
+          "activity_carrier_version_id": {"type": "string"},
+          "expression_version_id": {"type": ["string", "null"]},
+          "age_band": {"enum": ["4-6", "7-9", "10-12"]},
+          "understanding": {"enum": ["理解", "部分理解", "未理解"]},
+          "understood_concepts": {"type": "array", "items": {"type": "string"}},
+          "comment": {"type": "string"}
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "type", "actor", "reason", "at"],
+        "properties": {
+          "event_id": {"type": "string"},
+          "type": {"enum": ["发布", "更正", "撤权", "路线调整", "无障碍增补", "现场替换", "召回", "停用"]},
+          "actor": {"type": "string"},
+          "reason": {"type": "string"},
+          "at": {"type": "string"}
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
